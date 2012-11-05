@@ -1,0 +1,15 @@
+com.cubeia.firebase.server.event.processing
+com.cubeia.firebase.server.game
+com.cubeia.firebase.server.gateway
+com.cubeia.firebase.server.gateway.jmx
+com.cubeia.firebase.server.jmx
+com.cubeia.firebase.server.lobby.systemstate
+com.cubeia.firebase.server.master
+com.cubeia.firebase.server.mtt
+com.cubeia.firebase.server.node
+com.cubeia.firebase.server.service.jmx
+com.cubeia.firebase.service.clientreg.state
+com.cubeia.firebase.service.messagebus.util
+com.cubeia.firebase.util
+com.cubeia.firebase.util.executor
+com.cubeia.space.handler.table

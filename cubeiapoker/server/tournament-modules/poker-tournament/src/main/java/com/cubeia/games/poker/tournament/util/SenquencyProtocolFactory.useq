@@ -1,0 +1,55 @@
+<sequence-diagram version="1.0.10" icons="true">  
+  <object id="1" language="java" name="com.cubeia.games.poker.tournament.util.ProtocolFactory" 
+    project="poker-tournament" 
+    file="/poker-tournament/src/main/java/com/cubeia/games/poker/tournament/util/ProtocolFactory.java" binary="false" 
+    label="protocolFactory" type="class" autoSize="true">    
+    <position x="156" y="0" width="-1" height="-1"/>    
+    <execution id="2">      
+      <position x="5" y="155" width="177" height="273"/>    
+    </execution>  
+  </object>  
+  <object id="9" language="java" name="com.cubeia.firebase.io.StyxSerializer" project="poker-tournament" 
+    file="C:/Users/vunp.UNITEK/.m2/repository/com/cubeia/firebase/styx/1.6.0/styx-1.6.0.jar" binary="true" 
+    label="serializer" type="class" autoSize="true">    
+    <position x="0" y="0" width="0" height="0"/>    
+    <execution id="4">      
+      <position x="0" y="218" width="0" height="21"/>    
+    </execution>  
+  </object>  
+  <object id="10" language="java" name="com.cubeia.firebase.api.action.mtt.MttDataAction" project="poker-tournament" 
+    file="C:/Users/vunp.UNITEK/.m2/repository/com/cubeia/firebase/firebase-api/1.9.0-CE-RC.1/firebase-api-1.9.0-CE-RC.1.jar" 
+    binary="true" label="action" type="class" autoSize="true">    
+    <position x="0" y="0" width="0" height="0"/>    
+    <execution id="6">      
+      <position x="0" y="302" width="0" height="21"/>    
+    </execution>    
+    <execution id="8">      
+      <position x="0" y="386" width="0" height="21"/>    
+    </execution>  
+  </object>  
+  <object id="11" language="java" name="com.cubeia.games.poker.tournament.PokerTournament" project="poker-tournament" 
+    file="/poker-tournament/src/main/java/com/cubeia/games/poker/tournament/PokerTournament.java" binary="false" 
+    label="pokerTournament" type="class" autoSize="true">    
+    <position x="237" y="0" width="-1" height="-1"/>    
+    <execution id="12">      
+      <position x="186" y="134" width="162" height="315"/>    
+    </execution>  
+  </object>  
+  <message id="3" operation="pack(com.cubeia.firebase.io.ProtocolObject):java.nio.ByteBuffer">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="4"/>  
+  </message>  
+  <message id="5" operation="MttDataAction(int,int)">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="6"/>  
+  </message>  
+  <message id="7" operation="setData(java.nio.ByteBuffer):void">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="8"/>  
+  </message>  
+  <message id="13" 
+    operation="createMttAction(com.cubeia.firebase.io.ProtocolObject,int,int):com.cubeia.firebase.api.action.mtt.MttDataAction">    
+    <end type="SOURCE" refId="12"/>    
+    <end type="TARGET" refId="2"/>  
+  </message>
+</sequence-diagram>

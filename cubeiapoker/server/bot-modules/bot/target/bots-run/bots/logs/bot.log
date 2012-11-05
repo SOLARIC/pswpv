@@ -1,0 +1,362 @@
+2012-10-30 10:50:26,757 main INFO  pokerbots.server.http.BotHTTPServer - Start Local HTTP Server; port=8081, startid=100
+2012-10-30 10:50:26,884 main INFO  org.mortbay.http.HttpServer - Version Jetty/5.1.10
+2012-10-30 10:50:26,884 main INFO  org.mortbay.http.HttpServer - Version Jetty/5.1.10
+2012-10-30 10:50:26,889 main INFO  org.mortbay.util.Container - Started org.mortbay.jetty.servlet.ServletHandler@1bab2c3
+2012-10-30 10:50:26,889 main INFO  org.mortbay.util.Container - Started org.mortbay.jetty.servlet.ServletHandler@1bab2c3
+2012-10-30 10:50:26,891 main INFO  org.mortbay.util.Container - Started org.mortbay.jetty.servlet.ServletHandler@98a8b8
+2012-10-30 10:50:26,891 main INFO  org.mortbay.util.Container - Started org.mortbay.jetty.servlet.ServletHandler@98a8b8
+2012-10-30 10:50:26,962 main INFO  org.mortbay.util.Container - Started org.mortbay.jetty.servlet.ServletHandler@db14d4
+2012-10-30 10:50:26,962 main INFO  org.mortbay.util.Container - Started org.mortbay.jetty.servlet.ServletHandler@db14d4
+2012-10-30 10:50:26,964 main INFO  org.mortbay.util.Container - Started org.mortbay.jetty.servlet.ServletHandler@1b6c184
+2012-10-30 10:50:26,964 main INFO  org.mortbay.util.Container - Started org.mortbay.jetty.servlet.ServletHandler@1b6c184
+2012-10-30 10:50:26,965 main INFO  org.mortbay.util.Container - Started org.mortbay.jetty.servlet.ServletHandler@1eeb372
+2012-10-30 10:50:26,965 main INFO  org.mortbay.util.Container - Started org.mortbay.jetty.servlet.ServletHandler@1eeb372
+2012-10-30 10:50:26,966 main INFO  org.mortbay.util.Container - Started org.mortbay.jetty.servlet.ServletHandler@6e96ff
+2012-10-30 10:50:26,966 main INFO  org.mortbay.util.Container - Started org.mortbay.jetty.servlet.ServletHandler@6e96ff
+2012-10-30 10:50:26,968 main INFO  org.mortbay.util.Container - Started org.mortbay.jetty.servlet.ServletHandler@17456bc
+2012-10-30 10:50:26,968 main INFO  org.mortbay.util.Container - Started org.mortbay.jetty.servlet.ServletHandler@17456bc
+2012-10-30 10:50:26,969 main INFO  org.mortbay.util.Container - Started HttpContext[/,/]
+2012-10-30 10:50:26,969 main INFO  org.mortbay.util.Container - Started HttpContext[/,/]
+2012-10-30 10:50:26,975 main INFO  org.mortbay.http.SocketListener - Started SocketListener on 0.0.0.0:8081
+2012-10-30 10:50:26,975 main INFO  org.mortbay.http.SocketListener - Started SocketListener on 0.0.0.0:8081
+2012-10-30 10:50:26,976 main INFO  org.mortbay.util.Container - Started org.mortbay.http.HttpServer@514f7f
+2012-10-30 10:50:26,976 main INFO  org.mortbay.util.Container - Started org.mortbay.http.HttpServer@514f7f
+2012-10-30 10:50:32,602 SocketListener0-1 INFO  org.mortbay.util.Credential - Checking Resource aliases
+2012-10-30 10:50:32,602 SocketListener0-1 INFO  org.mortbay.util.Credential - Checking Resource aliases
+2012-10-30 10:50:32,783 SocketListener0-0 INFO  org.mortbay.util.Container - Started HttpContext[/,/]
+2012-10-30 10:50:32,783 SocketListener0-0 INFO  org.mortbay.util.Container - Started HttpContext[/,/]
+2012-10-30 10:50:52,733 SocketListener0-0 INFO  pokerbots.server.http.StartBatchServlet - A Batch was requested to be started
+2012-10-30 10:50:52,736 SocketListener0-0 INFO  pokerbots.server.local.LocalServer - Start Local Batch: Batch - url:[localhost] port:[4123] id:[B-1351569052736] parent:[null] assignee:[null] gameId:[1] requested:[45] started:[0] subbatches:[0] Status:[OK] To be stopped: [false] StartTime: [Tue Oct 30 10:50:52 ICT 2012] chat:[true] aiclass:[com.cubeia.game.poker.bot.PokerBot] 
+2012-10-30 10:50:52,751 LocalServer-Start-1 INFO  firebase.bot.model.Lobby - Binding 'Lobby' to JMX
+2012-10-30 10:50:52,944 LocalServer-Start-1 INFO  cubeia.firebase.bot.BotGroup - Binding BotGroup 'null' to JMX
+2012-10-30 10:50:52,974 LocalServer-Start-1 INFO  poker.pokerbots.thread.JmxScheduledExecutor - Binding JMX Executor 'BotExecutor' to JMX
+2012-10-30 10:50:52,975 LocalServer-Start-1 INFO  cubeia.firebase.bot.Bot - Using MINA connector
+2012-10-30 10:50:52,981 LocalServer-Start-1 INFO  poker.pokerbots.thread.JmxScheduledExecutor - Binding JMX Executor 'BotAI' to JMX
+2012-10-30 10:50:52,990 LocalServer-Start-1 INFO  cubeia.firebase.bot.BotGroup - Starting a group of bots.
+2012-10-30 10:50:52,991 LocalServer-Start-1 INFO  cubeia.firebase.bot.BotGroup - 	 AI: com.cubeia.game.poker.bot.PokerBot
+2012-10-30 10:50:52,992 LocalServer-Start-1 INFO  cubeia.firebase.bot.BotGroup - 	 Config: com.cubeia.firebase.bot.DefaultBotGroupConfig
+2012-10-30 10:50:52,992 LocalServer-Start-1 INFO  cubeia.firebase.bot.BotGroup - 	 Count: 45
+2012-10-30 10:50:52,994 LocalServer-Start-1 INFO  cubeia.firebase.bot.BotGroup - 	 Start id: 101
+2012-10-30 10:50:52,995 LocalServer-Start-1 INFO  cubeia.firebase.bot.BotGroup - 	 Tournament Bots: false
+2012-10-30 10:50:52,995 LocalServer-Start-1 INFO  cubeia.firebase.bot.Bot - Using MINA connector
+2012-10-30 10:50:53,003 LocalServer-Start-1 INFO  cubeia.firebase.bot.Bot - Using MINA connector
+2012-10-30 10:50:53,004 LocalServer-Start-1 INFO  cubeia.firebase.bot.Bot - Using MINA connector
+2012-10-30 10:50:53,005 LocalServer-Start-1 INFO  cubeia.firebase.bot.Bot - Using MINA connector
+2012-10-30 10:50:53,006 LocalServer-Start-1 INFO  cubeia.firebase.bot.Bot - Using MINA connector
+2012-10-30 10:50:53,007 LocalServer-Start-1 INFO  cubeia.firebase.bot.Bot - Using MINA connector
+2012-10-30 10:50:53,008 LocalServer-Start-1 INFO  cubeia.firebase.bot.Bot - Using MINA connector
+2012-10-30 10:50:53,009 LocalServer-Start-1 INFO  cubeia.firebase.bot.Bot - Using MINA connector
+2012-10-30 10:50:53,010 LocalServer-Start-1 INFO  cubeia.firebase.bot.Bot - Using MINA connector
+2012-10-30 10:50:53,010 LocalServer-Start-1 INFO  cubeia.firebase.bot.Bot - Using MINA connector
+2012-10-30 10:50:53,011 LocalServer-Start-1 INFO  cubeia.firebase.bot.Bot - Using MINA connector
+2012-10-30 10:50:53,011 LocalServer-Start-1 INFO  cubeia.firebase.bot.Bot - Using MINA connector
+2012-10-30 10:50:53,012 LocalServer-Start-1 INFO  cubeia.firebase.bot.Bot - Using MINA connector
+2012-10-30 10:50:53,013 LocalServer-Start-1 INFO  cubeia.firebase.bot.Bot - Using MINA connector
+2012-10-30 10:50:53,013 LocalServer-Start-1 INFO  cubeia.firebase.bot.Bot - Using MINA connector
+2012-10-30 10:50:53,015 LocalServer-Start-1 INFO  cubeia.firebase.bot.Bot - Using MINA connector
+2012-10-30 10:50:53,017 LocalServer-Start-1 INFO  cubeia.firebase.bot.Bot - Using MINA connector
+2012-10-30 10:50:53,018 LocalServer-Start-1 INFO  cubeia.firebase.bot.Bot - Using MINA connector
+2012-10-30 10:50:53,021 LocalServer-Start-1 INFO  cubeia.firebase.bot.Bot - Using MINA connector
+2012-10-30 10:50:53,022 LocalServer-Start-1 INFO  cubeia.firebase.bot.Bot - Using MINA connector
+2012-10-30 10:50:53,023 LocalServer-Start-1 INFO  cubeia.firebase.bot.Bot - Using MINA connector
+2012-10-30 10:50:53,023 LocalServer-Start-1 INFO  cubeia.firebase.bot.Bot - Using MINA connector
+2012-10-30 10:50:53,024 LocalServer-Start-1 INFO  cubeia.firebase.bot.Bot - Using MINA connector
+2012-10-30 10:50:53,024 LocalServer-Start-1 INFO  cubeia.firebase.bot.Bot - Using MINA connector
+2012-10-30 10:50:53,025 LocalServer-Start-1 INFO  cubeia.firebase.bot.Bot - Using MINA connector
+2012-10-30 10:50:53,026 LocalServer-Start-1 INFO  cubeia.firebase.bot.Bot - Using MINA connector
+2012-10-30 10:50:53,026 LocalServer-Start-1 INFO  cubeia.firebase.bot.Bot - Using MINA connector
+2012-10-30 10:50:53,027 LocalServer-Start-1 INFO  cubeia.firebase.bot.Bot - Using MINA connector
+2012-10-30 10:50:53,028 LocalServer-Start-1 INFO  cubeia.firebase.bot.Bot - Using MINA connector
+2012-10-30 10:50:53,031 LocalServer-Start-1 INFO  cubeia.firebase.bot.Bot - Using MINA connector
+2012-10-30 10:50:53,032 LocalServer-Start-1 INFO  cubeia.firebase.bot.Bot - Using MINA connector
+2012-10-30 10:50:53,032 LocalServer-Start-1 INFO  cubeia.firebase.bot.Bot - Using MINA connector
+2012-10-30 10:50:53,034 LocalServer-Start-1 INFO  cubeia.firebase.bot.Bot - Using MINA connector
+2012-10-30 10:50:53,034 LocalServer-Start-1 INFO  cubeia.firebase.bot.Bot - Using MINA connector
+2012-10-30 10:50:53,034 LocalServer-Start-1 INFO  cubeia.firebase.bot.Bot - Using MINA connector
+2012-10-30 10:50:53,035 LocalServer-Start-1 INFO  cubeia.firebase.bot.Bot - Using MINA connector
+2012-10-30 10:50:53,037 LocalServer-Start-1 INFO  cubeia.firebase.bot.Bot - Using MINA connector
+2012-10-30 10:50:53,038 LocalServer-Start-1 INFO  cubeia.firebase.bot.Bot - Using MINA connector
+2012-10-30 10:50:53,040 LocalServer-Start-1 INFO  cubeia.firebase.bot.Bot - Using MINA connector
+2012-10-30 10:50:53,041 LocalServer-Start-1 INFO  cubeia.firebase.bot.Bot - Using MINA connector
+2012-10-30 10:50:53,042 LocalServer-Start-1 INFO  cubeia.firebase.bot.Bot - Using MINA connector
+2012-10-30 10:50:53,045 LocalServer-Start-1 INFO  cubeia.firebase.bot.Bot - Using MINA connector
+2012-10-30 10:50:53,045 LocalServer-Start-1 INFO  cubeia.firebase.bot.Bot - Using MINA connector
+2012-10-30 10:50:53,046 LocalServer-Start-1 INFO  cubeia.firebase.bot.Bot - Using MINA connector
+2012-10-30 10:50:53,047 LocalServer-Start-1 INFO  cubeia.firebase.bot.Bot - Using MINA connector
+2012-10-30 10:50:53,047 LocalServer-Start-1 INFO  cubeia.firebase.bot.BotGroup - Starting BotGroup with 46 bots.
+2012-10-30 10:50:55,254 AnonymousIoService-6 INFO  firebase.bot.ai.AbstractAI - Bot_139 - Logged in
+2012-10-30 10:50:55,264 AnonymousIoService-15 INFO  firebase.bot.ai.AbstractAI - Bot_123 - Logged in
+2012-10-30 10:50:55,269 AnonymousIoService-16 INFO  firebase.bot.ai.AbstractAI - Bot_103 - Logged in
+2012-10-30 10:50:55,271 AnonymousIoService-16 INFO  firebase.bot.ai.AbstractAI - Bot_131 - Logged in
+2012-10-30 10:50:55,274 AnonymousIoService-16 INFO  firebase.bot.ai.AbstractAI - Bot_114 - Logged in
+2012-10-30 10:50:55,277 AnonymousIoService-1 INFO  firebase.bot.ai.AbstractAI - Bot_124 - Logged in
+2012-10-30 10:50:55,289 AnonymousIoService-2 INFO  firebase.bot.ai.AbstractAI - Bot_117 - Logged in
+2012-10-30 10:50:55,297 AnonymousIoService-1 INFO  firebase.bot.ai.AbstractAI - Bot_130 - Logged in
+2012-10-30 10:50:55,301 AnonymousIoService-2 INFO  firebase.bot.ai.AbstractAI - Bot_129 - Logged in
+2012-10-30 10:50:55,307 AnonymousIoService-7 INFO  firebase.bot.ai.AbstractAI - Bot_125 - Logged in
+2012-10-30 10:50:55,309 AnonymousIoService-9 INFO  firebase.bot.ai.AbstractAI - Bot_143 - Logged in
+2012-10-30 10:50:55,306 AnonymousIoService-8 INFO  firebase.bot.ai.AbstractAI - Bot_111 - Logged in
+2012-10-30 10:50:55,305 AnonymousIoService-6 INFO  firebase.bot.ai.AbstractAI - Bot_116 - Logged in
+2012-10-30 10:50:55,314 AnonymousIoService-6 INFO  firebase.bot.ai.AbstractAI - Bot_119 - Logged in
+2012-10-30 10:50:55,302 AnonymousIoService-4 INFO  firebase.bot.ai.AbstractAI - Bot_136 - Logged in
+2012-10-30 10:50:55,317 AnonymousIoService-1 INFO  firebase.bot.ai.AbstractAI - Bot_101 - Logged in
+2012-10-30 10:50:55,319 AnonymousIoService-12 INFO  firebase.bot.ai.AbstractAI - Bot_145 - Logged in
+2012-10-30 10:50:55,302 AnonymousIoService-3 INFO  firebase.bot.ai.AbstractAI - Bot_110 - Logged in
+2012-10-30 10:50:55,311 AnonymousIoService-5 INFO  firebase.bot.ai.AbstractAI - Bot_128 - Logged in
+2012-10-30 10:50:55,311 AnonymousIoService-16 INFO  firebase.bot.ai.AbstractAI - Bot_126 - Logged in
+2012-10-30 10:50:55,311 AnonymousIoService-2 INFO  firebase.bot.ai.AbstractAI - Bot_142 - Logged in
+2012-10-30 10:50:55,310 AnonymousIoService-11 INFO  firebase.bot.ai.AbstractAI - Bot_102 - Logged in
+2012-10-30 10:50:55,329 AnonymousIoService-7 INFO  firebase.bot.ai.AbstractAI - Bot_118 - Logged in
+2012-10-30 10:50:55,328 AnonymousIoService-14 INFO  firebase.bot.ai.AbstractAI - Bot_127 - Logged in
+2012-10-30 10:50:55,325 AnonymousIoService-15 INFO  firebase.bot.ai.AbstractAI - Bot_108 - Logged in
+2012-10-30 10:50:55,335 AnonymousIoService-15 INFO  firebase.bot.ai.AbstractAI - Bot_144 - Logged in
+2012-10-30 10:50:55,323 AnonymousIoService-3 INFO  firebase.bot.ai.AbstractAI - Bot_137 - Logged in
+2012-10-30 10:50:55,333 AnonymousIoService-9 INFO  firebase.bot.ai.AbstractAI - Bot_109 - Logged in
+2012-10-30 10:50:55,340 AnonymousIoService-10 INFO  firebase.bot.ai.AbstractAI - Bot_134 - Logged in
+2012-10-30 10:50:55,353 AnonymousIoService-4 INFO  firebase.bot.ai.AbstractAI - Bot_140 - Logged in
+2012-10-30 10:50:55,340 AnonymousIoService-6 INFO  firebase.bot.ai.AbstractAI - Bot_107 - Logged in
+2012-10-30 10:50:55,358 AnonymousIoService-6 INFO  firebase.bot.ai.AbstractAI - Bot_113 - Logged in
+2012-10-30 10:50:55,358 AnonymousIoService-8 INFO  firebase.bot.ai.AbstractAI - Bot_115 - Logged in
+2012-10-30 10:50:55,358 AnonymousIoService-15 INFO  firebase.bot.ai.AbstractAI - Bot_132 - Logged in
+2012-10-30 10:50:55,358 AnonymousIoService-11 INFO  firebase.bot.ai.AbstractAI - Bot_122 - Logged in
+2012-10-30 10:50:55,358 AnonymousIoService-2 INFO  firebase.bot.ai.AbstractAI - Bot_106 - Logged in
+2012-10-30 10:50:55,358 AnonymousIoService-16 INFO  firebase.bot.ai.AbstractAI - Bot_138 - Logged in
+2012-10-30 10:50:55,358 AnonymousIoService-14 INFO  firebase.bot.ai.AbstractAI - Bot_105 - Logged in
+2012-10-30 10:50:55,358 AnonymousIoService-5 INFO  firebase.bot.ai.AbstractAI - Bot_141 - Logged in
+2012-10-30 10:50:55,358 AnonymousIoService-7 INFO  firebase.bot.ai.AbstractAI - Bot_104 - Logged in
+2012-10-30 10:50:55,358 AnonymousIoService-13 INFO  firebase.bot.ai.AbstractAI - Bot_121 - Logged in
+2012-10-30 10:50:55,357 AnonymousIoService-4 INFO  firebase.bot.ai.AbstractAI - Bot_112 - Logged in
+2012-10-30 10:50:55,356 AnonymousIoService-1 INFO  firebase.bot.ai.AbstractAI - Bot_135 - Logged in
+2012-10-30 10:50:55,356 AnonymousIoService-10 INFO  firebase.bot.ai.AbstractAI - Bot_133 - Logged in
+2012-10-30 10:50:55,355 AnonymousIoService-12 INFO  firebase.bot.ai.AbstractAI - Bot_120 - Logged in
+2012-10-30 10:51:00,532 AnonymousIoService-7 INFO  firebase.bot.ai.AbstractAI - Bot_139 - Joined table: 6
+2012-10-30 10:51:00,540 AnonymousIoService-4 INFO  firebase.bot.ai.AbstractAI - Bot_129 - Joined table: 5
+2012-10-30 10:51:00,541 AnonymousIoService-10 INFO  firebase.bot.ai.AbstractAI - Bot_144 - Joined table: 2
+2012-10-30 10:51:00,534 AnonymousIoService-13 INFO  firebase.bot.ai.AbstractAI - Bot_115 - Joined table: 1
+2012-10-30 10:51:00,551 AnonymousIoService-12 INFO  firebase.bot.ai.AbstractAI - Bot_121 - Joined table: 3
+2012-10-30 10:51:00,540 AnonymousIoService-1 INFO  firebase.bot.ai.AbstractAI - Bot_118 - Joined table: 7
+2012-10-30 10:51:00,704 AnonymousIoService-6 INFO  firebase.bot.ai.AbstractAI - Bot_117 - Joined table: 6
+2012-10-30 10:51:00,709 AnonymousIoService-1 INFO  firebase.bot.ai.AbstractAI - Bot_119 - Joined table: 5
+2012-10-30 10:51:00,735 AnonymousIoService-16 INFO  firebase.bot.ai.AbstractAI - Bot_112 - Joined table: 3
+2012-10-30 10:51:00,735 AnonymousIoService-2 INFO  firebase.bot.ai.AbstractAI - Bot_113 - Joined table: 2
+2012-10-30 10:51:00,730 AnonymousIoService-6 INFO  firebase.bot.ai.AbstractAI - Bot_106 - Joined table: 1
+2012-10-30 10:51:00,813 AnonymousIoService-4 INFO  firebase.bot.ai.AbstractAI - Bot_110 - Joined table: 7
+2012-10-30 10:51:00,833 AnonymousIoService-13 INFO  firebase.bot.ai.AbstractAI - Bot_136 - Joined table: 5
+2012-10-30 10:51:00,859 AnonymousIoService-16 INFO  firebase.bot.ai.AbstractAI - Bot_133 - Joined table: 3
+2012-10-30 10:51:00,865 AnonymousIoService-1 INFO  firebase.bot.ai.AbstractAI - Bot_122 - Joined table: 1
+2012-10-30 10:51:00,865 AnonymousIoService-3 INFO  firebase.bot.ai.AbstractAI - Bot_116 - Joined table: 7
+2012-10-30 10:51:00,894 AnonymousIoService-2 INFO  firebase.bot.ai.AbstractAI - Bot_107 - Joined table: 2
+2012-10-30 10:51:00,869 AnonymousIoService-8 INFO  firebase.bot.ai.AbstractAI - Bot_124 - Joined table: 6
+2012-10-30 10:51:00,947 AnonymousIoService-7 INFO  firebase.bot.ai.AbstractAI - Bot_101 - Joined table: 5
+2012-10-30 10:51:00,960 AnonymousIoService-3 INFO  firebase.bot.ai.AbstractAI - Bot_132 - Joined table: 1
+2012-10-30 10:51:00,966 AnonymousIoService-14 INFO  firebase.bot.ai.AbstractAI - Bot_120 - Joined table: 3
+2012-10-30 10:51:00,976 AnonymousIoService-5 INFO  firebase.bot.ai.AbstractAI - Bot_114 - Joined table: 6
+2012-10-30 10:51:01,015 AnonymousIoService-1 INFO  firebase.bot.ai.AbstractAI - Bot_138 - Joined table: 1
+2012-10-30 10:51:01,103 AnonymousIoService-14 INFO  firebase.bot.ai.AbstractAI - Bot_130 - Joined table: 6
+2012-10-30 10:51:01,114 AnonymousIoService-6 INFO  firebase.bot.ai.AbstractAI - Bot_125 - Joined table: 5
+2012-10-30 10:51:01,155 AnonymousIoService-13 INFO  firebase.bot.ai.AbstractAI - Bot_137 - Joined table: 2
+2012-10-30 10:51:01,176 AnonymousIoService-5 INFO  firebase.bot.ai.AbstractAI - Bot_127 - Joined table: 7
+2012-10-30 10:51:01,182 AnonymousIoService-14 INFO  cubeia.firebase.bot.Bot - Bot_121[121] - I will make a buy in with the maximum amount of 11000
+2012-10-30 10:51:01,165 AnonymousIoService-9 INFO  firebase.bot.ai.AbstractAI - Bot_135 - Joined table: 3
+2012-10-30 10:51:01,181 AnonymousIoService-4 INFO  firebase.bot.ai.AbstractAI - Bot_141 - Joined table: 1
+2012-10-30 10:51:01,177 AnonymousIoService-12 INFO  firebase.bot.ai.AbstractAI - Bot_145 - Joined table: 5
+2012-10-30 10:51:01,230 AnonymousIoService-8 INFO  firebase.bot.ai.AbstractAI - Bot_134 - Joined table: 2
+2012-10-30 10:51:01,258 AnonymousIoService-5 INFO  firebase.bot.ai.AbstractAI - Bot_102 - Joined table: 7
+2012-10-30 10:51:01,269 AnonymousIoService-3 INFO  firebase.bot.ai.AbstractAI - Bot_131 - Joined table: 6
+2012-10-30 10:51:01,282 AnonymousIoService-3 INFO  firebase.bot.ai.AbstractAI - Bot_104 - Joined table: 1
+2012-10-30 10:51:01,344 AnonymousIoService-11 INFO  firebase.bot.ai.AbstractAI - Bot_143 - Joined table: 5
+2012-10-30 10:51:01,431 AnonymousIoService-15 INFO  firebase.bot.ai.AbstractAI - Bot_128 - Joined table: 7
+2012-10-30 10:51:01,431 AnonymousIoService-4 INFO  firebase.bot.ai.AbstractAI - Bot_109 - Joined table: 2
+2012-10-30 10:51:01,517 AnonymousIoService-8 INFO  cubeia.firebase.bot.Bot - Bot_112[112] - I will make a buy in with the maximum amount of 11000
+2012-10-30 10:51:01,554 AnonymousIoService-8 INFO  cubeia.firebase.bot.Bot - Bot_121[121] - I will make a buy in with the maximum amount of 11000
+2012-10-30 10:51:01,527 AnonymousIoService-3 INFO  firebase.bot.ai.AbstractAI - Bot_105 - Joined table: 1
+2012-10-30 10:51:01,614 AnonymousIoService-12 INFO  firebase.bot.ai.AbstractAI - Bot_126 - Joined table: 7
+2012-10-30 10:51:01,643 AnonymousIoService-12 INFO  firebase.bot.ai.AbstractAI - Bot_123 - Joined table: 6
+2012-10-30 10:51:01,521 AnonymousIoService-10 INFO  firebase.bot.ai.AbstractAI - Bot_103 - Joined table: 6
+2012-10-30 10:51:01,671 AnonymousIoService-14 INFO  cubeia.firebase.bot.Bot - Bot_106[106] - I will make a buy in with the maximum amount of 11000
+2012-10-30 10:51:01,682 AnonymousIoService-14 INFO  cubeia.firebase.bot.Bot - Bot_144[144] - I will make a buy in with the maximum amount of 11000
+2012-10-30 10:51:01,671 AnonymousIoService-6 INFO  cubeia.firebase.bot.Bot - Bot_139[139] - I will make a buy in with the maximum amount of 11000
+2012-10-30 10:51:01,664 AnonymousIoService-13 INFO  cubeia.firebase.bot.Bot - Bot_133[133] - I will make a buy in with the maximum amount of 11000
+2012-10-30 10:51:01,721 AnonymousIoService-13 INFO  cubeia.firebase.bot.Bot - Bot_139[139] - I will make a buy in with the maximum amount of 11000
+2012-10-30 10:51:01,767 AnonymousIoService-13 INFO  cubeia.firebase.bot.Bot - Bot_122[122] - I will make a buy in with the maximum amount of 11000
+2012-10-30 10:51:01,779 AnonymousIoService-13 INFO  cubeia.firebase.bot.Bot - Bot_133[133] - I will make a buy in with the maximum amount of 11000
+2012-10-30 10:51:01,811 AnonymousIoService-13 INFO  cubeia.firebase.bot.Bot - Bot_114[114] - I will make a buy in with the maximum amount of 11000
+2012-10-30 10:51:01,819 AnonymousIoService-13 INFO  cubeia.firebase.bot.Bot - Bot_120[120] - I will make a buy in with the maximum amount of 11000
+2012-10-30 10:51:01,820 AnonymousIoService-13 INFO  cubeia.firebase.bot.Bot - Bot_135[135] - I will make a buy in with the maximum amount of 11000
+2012-10-30 10:51:01,833 AnonymousIoService-13 INFO  cubeia.firebase.bot.Bot - Bot_127[127] - I will make a buy in with the maximum amount of 11000
+2012-10-30 10:51:01,834 AnonymousIoService-13 INFO  cubeia.firebase.bot.Bot - Bot_144[144] - I will make a buy in with the maximum amount of 11000
+2012-10-30 10:51:01,843 AnonymousIoService-13 INFO  cubeia.firebase.bot.Bot - Bot_106[106] - I will make a buy in with the maximum amount of 11000
+2012-10-30 10:51:01,843 AnonymousIoService-13 INFO  cubeia.firebase.bot.Bot - Bot_120[120] - I will make a buy in with the maximum amount of 11000
+2012-10-30 10:51:01,844 AnonymousIoService-13 INFO  cubeia.firebase.bot.Bot - Bot_107[107] - I will make a buy in with the maximum amount of 11000
+2012-10-30 10:51:01,664 AnonymousIoService-5 INFO  firebase.bot.ai.AbstractAI - Bot_142 - Joined table: 7
+2012-10-30 10:51:01,655 AnonymousIoService-3 INFO  firebase.bot.ai.AbstractAI - Bot_108 - Joined table: 2
+2012-10-30 10:51:01,644 AnonymousIoService-7 INFO  cubeia.firebase.bot.Bot - Bot_129[129] - I will make a buy in with the maximum amount of 11000
+2012-10-30 10:51:01,859 AnonymousIoService-7 INFO  cubeia.firebase.bot.Bot - Bot_129[129] - I will make a buy in with the maximum amount of 11000
+2012-10-30 10:51:01,617 AnonymousIoService-4 INFO  cubeia.firebase.bot.Bot - Bot_115[115] - I will make a buy in with the maximum amount of 11000
+2012-10-30 10:51:01,876 AnonymousIoService-4 INFO  cubeia.firebase.bot.Bot - Bot_115[115] - I will make a buy in with the maximum amount of 11000
+2012-10-30 10:51:01,615 AnonymousIoService-1 INFO  firebase.bot.ai.AbstractAI - Bot_140 - Joined table: 2
+2012-10-30 10:51:01,561 AnonymousIoService-9 INFO  firebase.bot.ai.AbstractAI - Bot_111 - Joined table: 5
+2012-10-30 10:51:01,776 AnonymousIoService-12 INFO  cubeia.firebase.bot.Bot - Bot_124[124] - I will make a buy in with the maximum amount of 11000
+2012-10-30 10:51:01,902 AnonymousIoService-12 INFO  cubeia.firebase.bot.Bot - Bot_124[124] - I will make a buy in with the maximum amount of 11000
+2012-10-30 10:51:01,911 AnonymousIoService-12 INFO  cubeia.firebase.bot.Bot - Bot_101[101] - I will make a buy in with the maximum amount of 11000
+2012-10-30 10:51:01,774 AnonymousIoService-15 INFO  cubeia.firebase.bot.Bot - Bot_112[112] - I will make a buy in with the maximum amount of 11000
+2012-10-30 10:51:01,768 AnonymousIoService-6 INFO  cubeia.firebase.bot.Bot - Bot_136[136] - I will make a buy in with the maximum amount of 11000
+2012-10-30 10:51:01,919 AnonymousIoService-6 INFO  cubeia.firebase.bot.Bot - Bot_136[136] - I will make a buy in with the maximum amount of 11000
+2012-10-30 10:51:01,766 AnonymousIoService-2 INFO  cubeia.firebase.bot.Bot - Bot_113[113] - I will make a buy in with the maximum amount of 11000
+2012-10-30 10:51:01,934 AnonymousIoService-2 INFO  cubeia.firebase.bot.Bot - Bot_113[113] - I will make a buy in with the maximum amount of 11000
+2012-10-30 10:51:01,765 AnonymousIoService-14 INFO  cubeia.firebase.bot.Bot - Bot_116[116] - I will make a buy in with the maximum amount of 11000
+2012-10-30 10:51:01,961 AnonymousIoService-14 INFO  cubeia.firebase.bot.Bot - Bot_116[116] - I will make a buy in with the maximum amount of 11000
+2012-10-30 10:51:01,695 AnonymousIoService-10 INFO  cubeia.firebase.bot.Bot - Bot_117[117] - I will make a buy in with the maximum amount of 11000
+2012-10-30 10:51:01,979 AnonymousIoService-10 INFO  cubeia.firebase.bot.Bot - Bot_117[117] - I will make a buy in with the maximum amount of 11000
+2012-10-30 10:51:01,682 AnonymousIoService-16 INFO  cubeia.firebase.bot.Bot - Bot_118[118] - I will make a buy in with the maximum amount of 11000
+2012-10-30 10:51:01,985 AnonymousIoService-16 INFO  cubeia.firebase.bot.Bot - Bot_118[118] - I will make a buy in with the maximum amount of 11000
+2012-10-30 10:51:01,996 AnonymousIoService-16 INFO  cubeia.firebase.bot.Bot - Bot_131[131] - I will make a buy in with the maximum amount of 11000
+2012-10-30 10:51:01,681 AnonymousIoService-8 INFO  cubeia.firebase.bot.Bot - Bot_110[110] - I will make a buy in with the maximum amount of 11000
+2012-10-30 10:51:02,017 AnonymousIoService-8 INFO  cubeia.firebase.bot.Bot - Bot_110[110] - I will make a buy in with the maximum amount of 11000
+2012-10-30 10:51:02,027 AnonymousIoService-8 INFO  cubeia.firebase.bot.Bot - Bot_143[143] - I will make a buy in with the maximum amount of 11000
+2012-10-30 10:51:02,054 AnonymousIoService-8 INFO  cubeia.firebase.bot.Bot - Bot_143[143] - I will make a buy in with the maximum amount of 11000
+2012-10-30 10:51:02,063 AnonymousIoService-8 INFO  cubeia.firebase.bot.Bot - Bot_134[134] - I will make a buy in with the maximum amount of 11000
+2012-10-30 10:51:02,069 AnonymousIoService-8 INFO  cubeia.firebase.bot.Bot - Bot_103[103] - I will make a buy in with the maximum amount of 11000
+2012-10-30 10:51:01,677 AnonymousIoService-11 INFO  cubeia.firebase.bot.Bot - Bot_119[119] - I will make a buy in with the maximum amount of 11000
+2012-10-30 10:51:02,082 AnonymousIoService-11 INFO  cubeia.firebase.bot.Bot - Bot_119[119] - I will make a buy in with the maximum amount of 11000
+2012-10-30 10:51:02,014 AnonymousIoService-16 INFO  cubeia.firebase.bot.Bot - Bot_131[131] - I will make a buy in with the maximum amount of 11000
+2012-10-30 10:51:02,086 AnonymousIoService-16 INFO  cubeia.firebase.bot.Bot - Bot_141[141] - I will make a buy in with the maximum amount of 11000
+2012-10-30 10:51:02,096 AnonymousIoService-16 INFO  cubeia.firebase.bot.Bot - Bot_134[134] - I will make a buy in with the maximum amount of 11000
+2012-10-30 10:51:01,991 AnonymousIoService-10 INFO  cubeia.firebase.bot.Bot - Bot_102[102] - I will make a buy in with the maximum amount of 11000
+2012-10-30 10:51:02,101 AnonymousIoService-10 INFO  cubeia.firebase.bot.Bot - Bot_102[102] - I will make a buy in with the maximum amount of 11000
+2012-10-30 10:51:01,979 AnonymousIoService-14 INFO  cubeia.firebase.bot.Bot - Bot_138[138] - I will make a buy in with the maximum amount of 11000
+2012-10-30 10:51:02,129 AnonymousIoService-14 INFO  cubeia.firebase.bot.Bot - Bot_138[138] - I will make a buy in with the maximum amount of 11000
+2012-10-30 10:51:01,978 AnonymousIoService-12 INFO  cubeia.firebase.bot.Bot - Bot_137[137] - I will make a buy in with the maximum amount of 11000
+2012-10-30 10:51:02,140 AnonymousIoService-12 INFO  cubeia.firebase.bot.Bot - Bot_137[137] - I will make a buy in with the maximum amount of 11000
+2012-10-30 10:51:02,146 AnonymousIoService-12 INFO  cubeia.firebase.bot.Bot - Bot_123[123] - I will make a buy in with the maximum amount of 11000
+2012-10-30 10:51:02,151 AnonymousIoService-12 INFO  cubeia.firebase.bot.Bot - Bot_109[109] - I will make a buy in with the maximum amount of 11000
+2012-10-30 10:51:01,975 AnonymousIoService-6 INFO  cubeia.firebase.bot.Bot - Bot_122[122] - I will make a buy in with the maximum amount of 11000
+2012-10-30 10:51:01,970 AnonymousIoService-1 INFO  cubeia.firebase.bot.Bot - Bot_107[107] - I will make a buy in with the maximum amount of 11000
+2012-10-30 10:51:01,950 AnonymousIoService-2 INFO  cubeia.firebase.bot.Bot - Bot_127[127] - I will make a buy in with the maximum amount of 11000
+2012-10-30 10:51:01,948 AnonymousIoService-4 INFO  cubeia.firebase.bot.Bot - Bot_135[135] - I will make a buy in with the maximum amount of 11000
+2012-10-30 10:51:02,187 AnonymousIoService-1 INFO  cubeia.firebase.bot.Bot - Bot_123[123] - I will make a buy in with the maximum amount of 11000
+2012-10-30 10:51:01,948 AnonymousIoService-15 INFO  cubeia.firebase.bot.Bot - Bot_145[145] - I will make a buy in with the maximum amount of 11000
+2012-10-30 10:51:02,195 AnonymousIoService-15 INFO  cubeia.firebase.bot.Bot - Bot_145[145] - I will make a buy in with the maximum amount of 11000
+2012-10-30 10:51:02,198 AnonymousIoService-15 INFO  cubeia.firebase.bot.Bot - Bot_103[103] - I will make a buy in with the maximum amount of 11000
+2012-10-30 10:51:01,945 AnonymousIoService-13 INFO  cubeia.firebase.bot.Bot - Bot_114[114] - I will make a buy in with the maximum amount of 11000
+2012-10-30 10:51:01,935 AnonymousIoService-3 INFO  cubeia.firebase.bot.Bot - Bot_125[125] - I will make a buy in with the maximum amount of 11000
+2012-10-30 10:51:01,934 AnonymousIoService-5 INFO  cubeia.firebase.bot.Bot - Bot_132[132] - I will make a buy in with the maximum amount of 11000
+2012-10-30 10:51:02,215 AnonymousIoService-5 INFO  cubeia.firebase.bot.Bot - Bot_132[132] - I will make a buy in with the maximum amount of 11000
+2012-10-30 10:51:01,929 AnonymousIoService-9 INFO  cubeia.firebase.bot.Bot - Bot_101[101] - I will make a buy in with the maximum amount of 11000
+2012-10-30 10:51:01,911 AnonymousIoService-7 INFO  cubeia.firebase.bot.Bot - Bot_130[130] - I will make a buy in with the maximum amount of 11000
+2012-10-30 10:51:02,223 AnonymousIoService-7 INFO  cubeia.firebase.bot.Bot - Bot_130[130] - I will make a buy in with the maximum amount of 11000
+2012-10-30 10:51:02,212 AnonymousIoService-2 INFO  cubeia.firebase.bot.Bot - Bot_105[105] - I will make a buy in with the maximum amount of 11000
+2012-10-30 10:51:02,212 AnonymousIoService-3 INFO  cubeia.firebase.bot.Bot - Bot_125[125] - I will make a buy in with the maximum amount of 11000
+2012-10-30 10:51:02,186 AnonymousIoService-6 INFO  cubeia.firebase.bot.Bot - Bot_140[140] - I will make a buy in with the maximum amount of 11000
+2012-10-30 10:51:02,161 AnonymousIoService-12 INFO  cubeia.firebase.bot.Bot - Bot_104[104] - I will make a buy in with the maximum amount of 11000
+2012-10-30 10:51:02,235 AnonymousIoService-12 INFO  cubeia.firebase.bot.Bot - Bot_104[104] - I will make a buy in with the maximum amount of 11000
+2012-10-30 10:51:02,248 AnonymousIoService-9 INFO  cubeia.firebase.bot.Bot - Bot_109[109] - I will make a buy in with the maximum amount of 11000
+2012-10-30 10:51:02,136 AnonymousIoService-14 INFO  cubeia.firebase.bot.Bot - Bot_142[142] - I will make a buy in with the maximum amount of 11000
+2012-10-30 10:51:02,252 AnonymousIoService-14 INFO  cubeia.firebase.bot.Bot - Bot_142[142] - I will make a buy in with the maximum amount of 11000
+2012-10-30 10:51:02,126 AnonymousIoService-10 INFO  cubeia.firebase.bot.Bot - Bot_141[141] - I will make a buy in with the maximum amount of 11000
+2012-10-30 10:51:02,109 AnonymousIoService-16 INFO  cubeia.firebase.bot.Bot - Bot_126[126] - I will make a buy in with the maximum amount of 11000
+2012-10-30 10:51:02,261 AnonymousIoService-16 INFO  cubeia.firebase.bot.Bot - Bot_126[126] - I will make a buy in with the maximum amount of 11000
+2012-10-30 10:51:02,083 AnonymousIoService-11 INFO  cubeia.firebase.bot.Bot - Bot_111[111] - I will make a buy in with the maximum amount of 11000
+2012-10-30 10:51:02,083 AnonymousIoService-8 INFO  cubeia.firebase.bot.Bot - Bot_128[128] - I will make a buy in with the maximum amount of 11000
+2012-10-30 10:51:02,281 AnonymousIoService-8 INFO  cubeia.firebase.bot.Bot - Bot_128[128] - I will make a buy in with the maximum amount of 11000
+2012-10-30 10:51:02,278 AnonymousIoService-4 INFO  cubeia.firebase.bot.Bot - Bot_108[108] - I will make a buy in with the maximum amount of 11000
+2012-10-30 10:51:02,277 AnonymousIoService-11 INFO  cubeia.firebase.bot.Bot - Bot_111[111] - I will make a buy in with the maximum amount of 11000
+2012-10-30 10:51:02,249 AnonymousIoService-15 INFO  cubeia.firebase.bot.Bot - Bot_105[105] - I will make a buy in with the maximum amount of 11000
+2012-10-30 10:51:02,511 AnonymousIoService-4 INFO  cubeia.firebase.bot.Bot - Bot_108[108] - I will make a buy in with the maximum amount of 11000
+2012-10-30 10:51:02,514 AnonymousIoService-5 INFO  cubeia.firebase.bot.Bot - Bot_140[140] - I will make a buy in with the maximum amount of 11000
+2012-10-30 10:51:30,837 BotAI-2 WARN  firebase.bot.util.ChatRepo - Chatfile not found or badly formatted. (Looking for file: chat.txt)
+2012-10-30 10:53:48,840 AnonymousIoService-2 INFO  cubeia.firebase.bot.Bot - Bot_114[114] - I will make a buy in with the maximum amount of 11000
+2012-10-30 10:56:01,923 AnonymousIoService-14 INFO  cubeia.firebase.bot.Bot - Bot_101[101] - I will make a buy in with the maximum amount of 11000
+2012-10-30 10:56:18,710 AnonymousIoService-16 INFO  cubeia.firebase.bot.Bot - Bot_109[109] - I will make a buy in with the maximum amount of 11000
+2012-10-30 10:56:21,156 AnonymousIoService-3 INFO  cubeia.firebase.bot.Bot - Bot_139[139] - Got Connection Error. Will Reconnect: false
+2012-10-30 10:56:21,162 AnonymousIoService-3 INFO  cubeia.firebase.bot.Bot - Bot_139[139] - Connection closed
+2012-10-30 10:56:21,184 AnonymousIoService-1 INFO  cubeia.firebase.bot.Bot - Bot_128[128] - Got Connection Error. Will Reconnect: false
+2012-10-30 10:56:21,185 AnonymousIoService-1 INFO  cubeia.firebase.bot.Bot - Bot_128[128] - Connection closed
+2012-10-30 10:56:21,200 AnonymousIoService-7 INFO  cubeia.firebase.bot.Bot - Bot_116[116] - Got Connection Error. Will Reconnect: false
+2012-10-30 10:56:21,200 AnonymousIoService-7 INFO  cubeia.firebase.bot.Bot - Bot_116[116] - Connection closed
+2012-10-30 10:56:21,204 AnonymousIoService-5 INFO  cubeia.firebase.bot.Bot - Bot_143[143] - Got Connection Error. Will Reconnect: false
+2012-10-30 10:56:21,206 AnonymousIoService-5 INFO  cubeia.firebase.bot.Bot - Bot_143[143] - Connection closed
+2012-10-30 10:56:21,213 AnonymousIoService-2 INFO  cubeia.firebase.bot.Bot - Bot_111[111] - Got Connection Error. Will Reconnect: false
+2012-10-30 10:56:21,214 AnonymousIoService-2 INFO  cubeia.firebase.bot.Bot - Bot_111[111] - Connection closed
+2012-10-30 10:56:21,218 AnonymousIoService-11 INFO  cubeia.firebase.bot.Bot - Bot_125[125] - Got Connection Error. Will Reconnect: false
+2012-10-30 10:56:21,218 AnonymousIoService-11 INFO  cubeia.firebase.bot.Bot - Bot_125[125] - Connection closed
+2012-10-30 10:56:21,222 AnonymousIoService-16 INFO  cubeia.firebase.bot.Bot - Bot_136[136] - Got Connection Error. Will Reconnect: false
+2012-10-30 10:56:21,224 AnonymousIoService-16 INFO  cubeia.firebase.bot.Bot - Bot_136[136] - Connection closed
+2012-10-30 10:56:21,231 AnonymousIoService-4 INFO  cubeia.firebase.bot.Bot - Bot_129[129] - Got Connection Error. Will Reconnect: false
+2012-10-30 10:56:21,233 AnonymousIoService-4 INFO  cubeia.firebase.bot.Bot - Bot_129[129] - Connection closed
+2012-10-30 10:56:21,280 AnonymousIoService-8 INFO  cubeia.firebase.bot.Bot - Bot_117[117] - Got Connection Error. Will Reconnect: false
+2012-10-30 10:56:21,280 AnonymousIoService-8 INFO  cubeia.firebase.bot.Bot - Bot_117[117] - Connection closed
+2012-10-30 10:56:21,293 AnonymousIoService-13 INFO  cubeia.firebase.bot.Bot - Bot_110[110] - Got Connection Error. Will Reconnect: false
+2012-10-30 10:56:21,294 AnonymousIoService-13 INFO  cubeia.firebase.bot.Bot - Bot_110[110] - Connection closed
+2012-10-30 10:56:21,302 AnonymousIoService-9 INFO  cubeia.firebase.bot.Bot - Bot_123[123] - Got Connection Error. Will Reconnect: false
+2012-10-30 10:56:21,303 AnonymousIoService-9 INFO  cubeia.firebase.bot.Bot - Bot_123[123] - Connection closed
+2012-10-30 10:56:21,326 AnonymousIoService-14 INFO  cubeia.firebase.bot.Bot - Bot_130[130] - Got Connection Error. Will Reconnect: false
+2012-10-30 10:56:21,327 AnonymousIoService-14 INFO  cubeia.firebase.bot.Bot - Bot_130[130] - Connection closed
+2012-10-30 10:56:21,332 AnonymousIoService-15 INFO  cubeia.firebase.bot.Bot - Bot_103[103] - Got Connection Error. Will Reconnect: false
+2012-10-30 10:56:21,333 AnonymousIoService-15 INFO  cubeia.firebase.bot.Bot - Bot_103[103] - Connection closed
+2012-10-30 10:56:21,348 AnonymousIoService-6 INFO  cubeia.firebase.bot.Bot - Bot_124[124] - Got Connection Error. Will Reconnect: false
+2012-10-30 10:56:21,349 AnonymousIoService-6 INFO  cubeia.firebase.bot.Bot - Bot_124[124] - Connection closed
+2012-10-30 10:56:21,357 AnonymousIoService-10 INFO  cubeia.firebase.bot.Bot - Bot_114[114] - Got Connection Error. Will Reconnect: false
+2012-10-30 10:56:21,358 AnonymousIoService-10 INFO  cubeia.firebase.bot.Bot - Bot_114[114] - Connection closed
+2012-10-30 10:56:21,376 AnonymousIoService-12 INFO  cubeia.firebase.bot.Bot - Bot_131[131] - Got Connection Error. Will Reconnect: false
+2012-10-30 10:56:21,377 AnonymousIoService-12 INFO  cubeia.firebase.bot.Bot - Bot_131[131] - Connection closed
+2012-10-30 10:56:21,380 AnonymousIoService-10 INFO  cubeia.firebase.bot.Bot - Bot_135[135] - Got Connection Error. Will Reconnect: false
+2012-10-30 10:56:21,381 AnonymousIoService-10 INFO  cubeia.firebase.bot.Bot - Bot_135[135] - Connection closed
+2012-10-30 10:56:21,383 AnonymousIoService-6 INFO  cubeia.firebase.bot.Bot - Bot_100[0] - Got Connection Error. Will Reconnect: false
+2012-10-30 10:56:21,384 AnonymousIoService-6 INFO  cubeia.firebase.bot.Bot - Bot_100[0] - Connection closed
+2012-10-30 10:56:21,386 AnonymousIoService-15 INFO  cubeia.firebase.bot.Bot - Bot_134[134] - Got Connection Error. Will Reconnect: false
+2012-10-30 10:56:21,387 AnonymousIoService-15 INFO  cubeia.firebase.bot.Bot - Bot_134[134] - Connection closed
+2012-10-30 10:56:21,389 AnonymousIoService-14 INFO  cubeia.firebase.bot.Bot - Bot_144[144] - Got Connection Error. Will Reconnect: false
+2012-10-30 10:56:21,393 AnonymousIoService-14 INFO  cubeia.firebase.bot.Bot - Bot_144[144] - Connection closed
+2012-10-30 10:56:21,395 AnonymousIoService-9 INFO  cubeia.firebase.bot.Bot - Bot_109[109] - Got Connection Error. Will Reconnect: false
+2012-10-30 10:56:21,396 AnonymousIoService-9 INFO  cubeia.firebase.bot.Bot - Bot_109[109] - Connection closed
+2012-10-30 10:56:21,398 AnonymousIoService-13 INFO  cubeia.firebase.bot.Bot - Bot_118[118] - Got Connection Error. Will Reconnect: false
+2012-10-30 10:56:21,399 AnonymousIoService-13 INFO  cubeia.firebase.bot.Bot - Bot_118[118] - Connection closed
+2012-10-30 10:56:21,401 AnonymousIoService-8 INFO  cubeia.firebase.bot.Bot - Bot_127[127] - Got Connection Error. Will Reconnect: false
+2012-10-30 10:56:21,402 AnonymousIoService-8 INFO  cubeia.firebase.bot.Bot - Bot_127[127] - Connection closed
+2012-10-30 10:56:21,406 AnonymousIoService-4 INFO  cubeia.firebase.bot.Bot - Bot_108[108] - Got Connection Error. Will Reconnect: false
+2012-10-30 10:56:21,407 AnonymousIoService-4 INFO  cubeia.firebase.bot.Bot - Bot_108[108] - Connection closed
+2012-10-30 10:56:21,412 AnonymousIoService-16 INFO  cubeia.firebase.bot.Bot - Bot_137[137] - Got Connection Error. Will Reconnect: false
+2012-10-30 10:56:21,412 AnonymousIoService-16 INFO  cubeia.firebase.bot.Bot - Bot_137[137] - Connection closed
+2012-10-30 10:56:21,416 AnonymousIoService-11 INFO  cubeia.firebase.bot.Bot - Bot_145[145] - Got Connection Error. Will Reconnect: false
+2012-10-30 10:56:21,417 AnonymousIoService-11 INFO  cubeia.firebase.bot.Bot - Bot_145[145] - Connection closed
+2012-10-30 10:56:21,420 AnonymousIoService-2 INFO  cubeia.firebase.bot.Bot - Bot_101[101] - Got Connection Error. Will Reconnect: false
+2012-10-30 10:56:21,421 AnonymousIoService-2 INFO  cubeia.firebase.bot.Bot - Bot_101[101] - Connection closed
+2012-10-30 10:56:21,427 AnonymousIoService-5 INFO  cubeia.firebase.bot.Bot - Bot_119[119] - Got Connection Error. Will Reconnect: false
+2012-10-30 10:56:21,428 AnonymousIoService-5 INFO  cubeia.firebase.bot.Bot - Bot_119[119] - Connection closed
+2012-10-30 10:56:21,431 AnonymousIoService-7 INFO  cubeia.firebase.bot.Bot - Bot_126[126] - Got Connection Error. Will Reconnect: false
+2012-10-30 10:56:21,431 AnonymousIoService-7 INFO  cubeia.firebase.bot.Bot - Bot_126[126] - Connection closed
+2012-10-30 10:56:21,435 AnonymousIoService-1 INFO  cubeia.firebase.bot.Bot - Bot_142[142] - Got Connection Error. Will Reconnect: false
+2012-10-30 10:56:21,435 AnonymousIoService-1 INFO  cubeia.firebase.bot.Bot - Bot_142[142] - Connection closed
+2012-10-30 10:56:21,437 AnonymousIoService-3 INFO  cubeia.firebase.bot.Bot - Bot_102[102] - Got Connection Error. Will Reconnect: false
+2012-10-30 10:56:21,438 AnonymousIoService-3 INFO  cubeia.firebase.bot.Bot - Bot_102[102] - Connection closed
+2012-10-30 10:56:21,441 AnonymousIoService-1 INFO  cubeia.firebase.bot.Bot - Bot_113[113] - Got Connection Error. Will Reconnect: false
+2012-10-30 10:56:21,441 AnonymousIoService-1 INFO  cubeia.firebase.bot.Bot - Bot_113[113] - Connection closed
+2012-10-30 10:56:21,444 AnonymousIoService-7 INFO  cubeia.firebase.bot.Bot - Bot_104[104] - Got Connection Error. Will Reconnect: false
+2012-10-30 10:56:21,444 AnonymousIoService-7 INFO  cubeia.firebase.bot.Bot - Bot_104[104] - Connection closed
+2012-10-30 10:56:21,446 AnonymousIoService-5 INFO  cubeia.firebase.bot.Bot - Bot_115[115] - Got Connection Error. Will Reconnect: false
+2012-10-30 10:56:21,447 AnonymousIoService-5 INFO  cubeia.firebase.bot.Bot - Bot_115[115] - Connection closed
+2012-10-30 10:56:21,449 AnonymousIoService-2 INFO  cubeia.firebase.bot.Bot - Bot_138[138] - Got Connection Error. Will Reconnect: false
+2012-10-30 10:56:21,450 AnonymousIoService-2 INFO  cubeia.firebase.bot.Bot - Bot_138[138] - Connection closed
+2012-10-30 10:56:21,453 AnonymousIoService-11 INFO  cubeia.firebase.bot.Bot - Bot_122[122] - Got Connection Error. Will Reconnect: false
+2012-10-30 10:56:21,454 AnonymousIoService-11 INFO  cubeia.firebase.bot.Bot - Bot_122[122] - Connection closed
+2012-10-30 10:56:21,458 AnonymousIoService-16 INFO  cubeia.firebase.bot.Bot - Bot_141[141] - Got Connection Error. Will Reconnect: false
+2012-10-30 10:56:21,459 AnonymousIoService-16 INFO  cubeia.firebase.bot.Bot - Bot_141[141] - Connection closed
+2012-10-30 10:56:21,463 AnonymousIoService-4 INFO  cubeia.firebase.bot.Bot - Bot_105[105] - Got Connection Error. Will Reconnect: false
+2012-10-30 10:56:21,464 AnonymousIoService-4 INFO  cubeia.firebase.bot.Bot - Bot_105[105] - Connection closed
+2012-10-30 10:56:21,471 AnonymousIoService-8 INFO  cubeia.firebase.bot.Bot - Bot_112[112] - Got Connection Error. Will Reconnect: false
+2012-10-30 10:56:21,472 AnonymousIoService-8 INFO  cubeia.firebase.bot.Bot - Bot_112[112] - Connection closed
+2012-10-30 10:56:21,474 AnonymousIoService-13 INFO  cubeia.firebase.bot.Bot - Bot_106[106] - Got Connection Error. Will Reconnect: false
+2012-10-30 10:56:21,475 AnonymousIoService-13 INFO  cubeia.firebase.bot.Bot - Bot_106[106] - Connection closed
+2012-10-30 10:56:21,477 AnonymousIoService-9 INFO  cubeia.firebase.bot.Bot - Bot_121[121] - Got Connection Error. Will Reconnect: false
+2012-10-30 10:56:21,478 AnonymousIoService-9 INFO  cubeia.firebase.bot.Bot - Bot_121[121] - Connection closed
+2012-10-30 10:56:21,481 AnonymousIoService-14 INFO  cubeia.firebase.bot.Bot - Bot_132[132] - Got Connection Error. Will Reconnect: false
+2012-10-30 10:56:21,481 AnonymousIoService-14 INFO  cubeia.firebase.bot.Bot - Bot_132[132] - Connection closed
+2012-10-30 10:56:21,484 AnonymousIoService-15 INFO  cubeia.firebase.bot.Bot - Bot_107[107] - Got Connection Error. Will Reconnect: false
+2012-10-30 10:56:21,486 AnonymousIoService-15 INFO  cubeia.firebase.bot.Bot - Bot_107[107] - Connection closed
+2012-10-30 10:56:21,488 AnonymousIoService-6 INFO  cubeia.firebase.bot.Bot - Bot_120[120] - Got Connection Error. Will Reconnect: false
+2012-10-30 10:56:21,489 AnonymousIoService-6 INFO  cubeia.firebase.bot.Bot - Bot_120[120] - Connection closed
+2012-10-30 10:56:21,492 AnonymousIoService-10 INFO  cubeia.firebase.bot.Bot - Bot_133[133] - Got Connection Error. Will Reconnect: false
+2012-10-30 10:56:21,492 AnonymousIoService-10 INFO  cubeia.firebase.bot.Bot - Bot_133[133] - Connection closed
+2012-10-30 10:56:21,494 AnonymousIoService-12 INFO  cubeia.firebase.bot.Bot - Bot_140[140] - Got Connection Error. Will Reconnect: false
+2012-10-30 10:56:21,495 AnonymousIoService-12 INFO  cubeia.firebase.bot.Bot - Bot_140[140] - Connection closed
