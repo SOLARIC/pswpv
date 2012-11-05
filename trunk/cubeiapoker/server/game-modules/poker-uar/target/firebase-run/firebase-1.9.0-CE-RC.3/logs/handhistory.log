@@ -1,0 +1,685 @@
+2012-11-05 09:47:13,559 INFO  ReceivingGameEventDaemon-36 com.cubeia.poker.handhistory.impl.JsonHandHistoryLogger -  {
+  "handId": {
+    "tableId": 6,
+    "tableIntegrationId": "MOCK::6",
+    "handId": "1352083602591"
+  },
+  "startTime": 1352083602594,
+  "endTime": 1352083633495,
+  "results": {
+    "totalRake": 22,
+    "results": {
+      "1": {
+        "playerId": 1,
+        "netWin": -1100,
+        "totalWin": 0,
+        "rake": 11,
+        "totalBet": 1100,
+        "transactionId": "-1"
+      },
+      "2": {
+        "playerId": 2,
+        "netWin": 1078,
+        "totalWin": 2178,
+        "rake": 11,
+        "totalBet": 1100,
+        "transactionId": "-1"
+      }
+    }
+  },
+  "events": [
+    {
+      "action": "SMALL_BLIND",
+      "amount": {
+        "type": "BET",
+        "amount": 110
+      },
+      "timeout": false,
+      "playerId": 1,
+      "type": "PlayerAction",
+      "time": 1352083602757,
+      "_class": "com.cubeia.poker.handhistory.api.PlayerAction"
+    },
+    {
+      "action": "BIG_BLIND",
+      "amount": {
+        "type": "BET",
+        "amount": 220
+      },
+      "timeout": false,
+      "playerId": 2,
+      "type": "PlayerAction",
+      "time": 1352083602876,
+      "_class": "com.cubeia.poker.handhistory.api.PlayerAction"
+    },
+    {
+      "playerId": 1,
+      "cards": [
+        {
+          "suit": "SPADES",
+          "rank": "ACE"
+        },
+        {
+          "suit": "DIAMONDS",
+          "rank": "TWO"
+        }
+      ],
+      "isExposed": false,
+      "type": "PlayerCardsDealt",
+      "time": 1352083602879,
+      "_class": "com.cubeia.poker.handhistory.api.PlayerCardsDealt"
+    },
+    {
+      "playerId": 2,
+      "cards": [
+        {
+          "suit": "DIAMONDS",
+          "rank": "FIVE"
+        },
+        {
+          "suit": "SPADES",
+          "rank": "KING"
+        }
+      ],
+      "isExposed": false,
+      "type": "PlayerCardsDealt",
+      "time": 1352083602882,
+      "_class": "com.cubeia.poker.handhistory.api.PlayerCardsDealt"
+    },
+    {
+      "action": "CALL",
+      "amount": {
+        "type": "BET",
+        "amount": 110
+      },
+      "timeout": false,
+      "playerId": 1,
+      "type": "PlayerAction",
+      "time": 1352083608146,
+      "_class": "com.cubeia.poker.handhistory.api.PlayerAction"
+    },
+    {
+      "action": "CHECK",
+      "amount": {
+        "type": "BET",
+        "amount": 0
+      },
+      "timeout": false,
+      "playerId": 2,
+      "type": "PlayerAction",
+      "time": 1352083610283,
+      "_class": "com.cubeia.poker.handhistory.api.PlayerAction"
+    },
+    {
+      "pots": [
+        {
+          "potId": 0,
+          "players": [
+            1,
+            2
+          ],
+          "potSize": 440
+        }
+      ],
+      "type": "PotUpdate",
+      "time": 1352083610292,
+      "_class": "com.cubeia.poker.handhistory.api.PotUpdate"
+    },
+    {
+      "cards": [
+        {
+          "suit": "SPADES",
+          "rank": "SIX"
+        },
+        {
+          "suit": "CLUBS",
+          "rank": "THREE"
+        },
+        {
+          "suit": "HEARTS",
+          "rank": "TWO"
+        }
+      ],
+      "type": "TableCardsDealt",
+      "time": 1352083610299,
+      "_class": "com.cubeia.poker.handhistory.api.TableCardsDealt"
+    },
+    {
+      "action": "CHECK",
+      "amount": {
+        "type": "BET",
+        "amount": 0
+      },
+      "timeout": false,
+      "playerId": 2,
+      "type": "PlayerAction",
+      "time": 1352083618141,
+      "_class": "com.cubeia.poker.handhistory.api.PlayerAction"
+    },
+    {
+      "action": "BET",
+      "amount": {
+        "type": "BET",
+        "amount": 880
+      },
+      "timeout": false,
+      "playerId": 1,
+      "type": "PlayerAction",
+      "time": 1352083626120,
+      "_class": "com.cubeia.poker.handhistory.api.PlayerAction"
+    },
+    {
+      "action": "CALL",
+      "amount": {
+        "type": "BET",
+        "amount": 880
+      },
+      "timeout": false,
+      "playerId": 2,
+      "type": "PlayerAction",
+      "time": 1352083628246,
+      "_class": "com.cubeia.poker.handhistory.api.PlayerAction"
+    },
+    {
+      "pots": [
+        {
+          "potId": 0,
+          "players": [
+            1,
+            2
+          ],
+          "potSize": 2200
+        }
+      ],
+      "type": "PotUpdate",
+      "time": 1352083628250,
+      "_class": "com.cubeia.poker.handhistory.api.PotUpdate"
+    },
+    {
+      "playerId": 2,
+      "cards": [
+        {
+          "suit": "DIAMONDS",
+          "rank": "FIVE"
+        },
+        {
+          "suit": "SPADES",
+          "rank": "KING"
+        }
+      ],
+      "type": "PlayerCardsExposed",
+      "time": 1352083628256,
+      "_class": "com.cubeia.poker.handhistory.api.PlayerCardsExposed"
+    },
+    {
+      "playerId": 1,
+      "cards": [
+        {
+          "suit": "DIAMONDS",
+          "rank": "TWO"
+        },
+        {
+          "suit": "SPADES",
+          "rank": "ACE"
+        }
+      ],
+      "type": "PlayerCardsExposed",
+      "time": 1352083628256,
+      "_class": "com.cubeia.poker.handhistory.api.PlayerCardsExposed"
+    },
+    {
+      "cards": [
+        {
+          "suit": "CLUBS",
+          "rank": "SEVEN"
+        }
+      ],
+      "type": "TableCardsDealt",
+      "time": 1352083629309,
+      "_class": "com.cubeia.poker.handhistory.api.TableCardsDealt"
+    },
+    {
+      "pots": [
+        {
+          "potId": 0,
+          "players": [
+            1,
+            2
+          ],
+          "potSize": 2200
+        }
+      ],
+      "type": "PotUpdate",
+      "time": 1352083631401,
+      "_class": "com.cubeia.poker.handhistory.api.PotUpdate"
+    },
+    {
+      "cards": [
+        {
+          "suit": "DIAMONDS",
+          "rank": "KING"
+        }
+      ],
+      "type": "TableCardsDealt",
+      "time": 1352083631410,
+      "_class": "com.cubeia.poker.handhistory.api.TableCardsDealt"
+    },
+    {
+      "pots": [
+        {
+          "potId": 0,
+          "players": [
+            1,
+            2
+          ],
+          "potSize": 2200
+        }
+      ],
+      "type": "PotUpdate",
+      "time": 1352083633472,
+      "_class": "com.cubeia.poker.handhistory.api.PotUpdate"
+    }
+  ],
+  "seats": [
+    {
+      "playerId": 1,
+      "initialBalance": 1100,
+      "seatId": 0,
+      "name": "1"
+    },
+    {
+      "playerId": 2,
+      "initialBalance": 1100,
+      "seatId": 1,
+      "name": "2"
+    }
+  ]
+}
+2012-11-05 09:47:37,960 INFO  ReceivingGameEventDaemon-59 com.cubeia.poker.handhistory.impl.JsonHandHistoryLogger -  {
+  "handId": {
+    "tableId": 6,
+    "tableIntegrationId": "MOCK::6",
+    "handId": "1352083642833"
+  },
+  "startTime": 1352083642834,
+  "endTime": 1352083657955,
+  "results": {
+    "totalRake": 43,
+    "results": {
+      "1": {
+        "playerId": 1,
+        "netWin": -2178,
+        "totalWin": 0,
+        "rake": 21,
+        "totalBet": 2178,
+        "transactionId": "-1"
+      },
+      "2": {
+        "playerId": 2,
+        "netWin": 2135,
+        "totalWin": 4313,
+        "rake": 22,
+        "totalBet": 2178,
+        "transactionId": "-1"
+      }
+    }
+  },
+  "events": [
+    {
+      "action": "SMALL_BLIND",
+      "amount": {
+        "type": "BET",
+        "amount": 110
+      },
+      "timeout": false,
+      "playerId": 2,
+      "type": "PlayerAction",
+      "time": 1352083642945,
+      "_class": "com.cubeia.poker.handhistory.api.PlayerAction"
+    },
+    {
+      "action": "BIG_BLIND",
+      "amount": {
+        "type": "BET",
+        "amount": 220
+      },
+      "timeout": false,
+      "playerId": 1,
+      "type": "PlayerAction",
+      "time": 1352083643029,
+      "_class": "com.cubeia.poker.handhistory.api.PlayerAction"
+    },
+    {
+      "playerId": 1,
+      "cards": [
+        {
+          "suit": "HEARTS",
+          "rank": "EIGHT"
+        },
+        {
+          "suit": "HEARTS",
+          "rank": "THREE"
+        }
+      ],
+      "isExposed": false,
+      "type": "PlayerCardsDealt",
+      "time": 1352083643035,
+      "_class": "com.cubeia.poker.handhistory.api.PlayerCardsDealt"
+    },
+    {
+      "playerId": 2,
+      "cards": [
+        {
+          "suit": "DIAMONDS",
+          "rank": "NINE"
+        },
+        {
+          "suit": "DIAMONDS",
+          "rank": "EIGHT"
+        }
+      ],
+      "isExposed": false,
+      "type": "PlayerCardsDealt",
+      "time": 1352083643037,
+      "_class": "com.cubeia.poker.handhistory.api.PlayerCardsDealt"
+    },
+    {
+      "action": "RAISE",
+      "amount": {
+        "type": "BET",
+        "amount": 2178
+      },
+      "timeout": false,
+      "playerId": 2,
+      "type": "PlayerAction",
+      "time": 1352083648529,
+      "_class": "com.cubeia.poker.handhistory.api.PlayerAction"
+    },
+    {
+      "action": "CALL",
+      "amount": {
+        "type": "BET",
+        "amount": 1958
+      },
+      "timeout": false,
+      "playerId": 1,
+      "type": "PlayerAction",
+      "time": 1352083650666,
+      "_class": "com.cubeia.poker.handhistory.api.PlayerAction"
+    },
+    {
+      "pots": [
+        {
+          "potId": 0,
+          "players": [
+            1,
+            2
+          ],
+          "potSize": 4356
+        }
+      ],
+      "type": "PotUpdate",
+      "time": 1352083650668,
+      "_class": "com.cubeia.poker.handhistory.api.PotUpdate"
+    },
+    {
+      "playerId": 1,
+      "cards": [
+        {
+          "suit": "HEARTS",
+          "rank": "THREE"
+        },
+        {
+          "suit": "HEARTS",
+          "rank": "EIGHT"
+        }
+      ],
+      "type": "PlayerCardsExposed",
+      "time": 1352083650671,
+      "_class": "com.cubeia.poker.handhistory.api.PlayerCardsExposed"
+    },
+    {
+      "playerId": 2,
+      "cards": [
+        {
+          "suit": "DIAMONDS",
+          "rank": "NINE"
+        },
+        {
+          "suit": "DIAMONDS",
+          "rank": "EIGHT"
+        }
+      ],
+      "type": "PlayerCardsExposed",
+      "time": 1352083650671,
+      "_class": "com.cubeia.poker.handhistory.api.PlayerCardsExposed"
+    },
+    {
+      "cards": [
+        {
+          "suit": "CLUBS",
+          "rank": "SIX"
+        },
+        {
+          "suit": "HEARTS",
+          "rank": "TWO"
+        },
+        {
+          "suit": "SPADES",
+          "rank": "SEVEN"
+        }
+      ],
+      "type": "TableCardsDealt",
+      "time": 1352083651703,
+      "_class": "com.cubeia.poker.handhistory.api.TableCardsDealt"
+    },
+    {
+      "pots": [
+        {
+          "potId": 0,
+          "players": [
+            1,
+            2
+          ],
+          "potSize": 4356
+        }
+      ],
+      "type": "PotUpdate",
+      "time": 1352083653762,
+      "_class": "com.cubeia.poker.handhistory.api.PotUpdate"
+    },
+    {
+      "cards": [
+        {
+          "suit": "DIAMONDS",
+          "rank": "SIX"
+        }
+      ],
+      "type": "TableCardsDealt",
+      "time": 1352083653765,
+      "_class": "com.cubeia.poker.handhistory.api.TableCardsDealt"
+    },
+    {
+      "pots": [
+        {
+          "potId": 0,
+          "players": [
+            1,
+            2
+          ],
+          "potSize": 4356
+        }
+      ],
+      "type": "PotUpdate",
+      "time": 1352083655839,
+      "_class": "com.cubeia.poker.handhistory.api.PotUpdate"
+    },
+    {
+      "cards": [
+        {
+          "suit": "CLUBS",
+          "rank": "FIVE"
+        }
+      ],
+      "type": "TableCardsDealt",
+      "time": 1352083655843,
+      "_class": "com.cubeia.poker.handhistory.api.TableCardsDealt"
+    },
+    {
+      "pots": [
+        {
+          "potId": 0,
+          "players": [
+            1,
+            2
+          ],
+          "potSize": 4356
+        }
+      ],
+      "type": "PotUpdate",
+      "time": 1352083657941,
+      "_class": "com.cubeia.poker.handhistory.api.PotUpdate"
+    }
+  ],
+  "seats": [
+    {
+      "playerId": 1,
+      "initialBalance": 11000,
+      "seatId": 0,
+      "name": "1"
+    },
+    {
+      "playerId": 2,
+      "initialBalance": 2178,
+      "seatId": 1,
+      "name": "2"
+    }
+  ]
+}
+2012-11-05 09:47:57,280 INFO  ReceivingGameEventDaemon-50 com.cubeia.poker.handhistory.impl.JsonHandHistoryLogger -  {
+  "handId": {
+    "tableId": 6,
+    "tableIntegrationId": "MOCK::6",
+    "handId": "1352083661002"
+  },
+  "startTime": 1352083661003,
+  "endTime": 1352083677278,
+  "results": {
+    "totalRake": 0,
+    "results": {
+      "1": {
+        "playerId": 1,
+        "netWin": -110,
+        "totalWin": 0,
+        "rake": 0,
+        "totalBet": 110,
+        "transactionId": "-1"
+      },
+      "2": {
+        "playerId": 2,
+        "netWin": 110,
+        "totalWin": 220,
+        "rake": 0,
+        "totalBet": 110,
+        "transactionId": "-1"
+      }
+    }
+  },
+  "events": [
+    {
+      "action": "SMALL_BLIND",
+      "amount": {
+        "type": "BET",
+        "amount": 110
+      },
+      "timeout": false,
+      "playerId": 1,
+      "type": "PlayerAction",
+      "time": 1352083661098,
+      "_class": "com.cubeia.poker.handhistory.api.PlayerAction"
+    },
+    {
+      "action": "BIG_BLIND",
+      "amount": {
+        "type": "BET",
+        "amount": 220
+      },
+      "timeout": false,
+      "playerId": 2,
+      "type": "PlayerAction",
+      "time": 1352083661170,
+      "_class": "com.cubeia.poker.handhistory.api.PlayerAction"
+    },
+    {
+      "playerId": 1,
+      "cards": [
+        {
+          "suit": "DIAMONDS",
+          "rank": "KING"
+        },
+        {
+          "suit": "HEARTS",
+          "rank": "EIGHT"
+        }
+      ],
+      "isExposed": false,
+      "type": "PlayerCardsDealt",
+      "time": 1352083661172,
+      "_class": "com.cubeia.poker.handhistory.api.PlayerCardsDealt"
+    },
+    {
+      "playerId": 2,
+      "cards": [
+        {
+          "suit": "SPADES",
+          "rank": "FIVE"
+        },
+        {
+          "suit": "CLUBS",
+          "rank": "SIX"
+        }
+      ],
+      "isExposed": false,
+      "type": "PlayerCardsDealt",
+      "time": 1352083661173,
+      "_class": "com.cubeia.poker.handhistory.api.PlayerCardsDealt"
+    },
+    {
+      "action": "FOLD",
+      "timeout": true,
+      "playerId": 1,
+      "type": "PlayerAction",
+      "time": 1352083677269,
+      "_class": "com.cubeia.poker.handhistory.api.PlayerAction"
+    },
+    {
+      "pots": [
+        {
+          "potId": 0,
+          "players": [
+            1,
+            2
+          ],
+          "potSize": 220
+        }
+      ],
+      "type": "PotUpdate",
+      "time": 1352083677272,
+      "_class": "com.cubeia.poker.handhistory.api.PotUpdate"
+    }
+  ],
+  "seats": [
+    {
+      "playerId": 1,
+      "initialBalance": 8822,
+      "seatId": 0,
+      "name": "1"
+    },
+    {
+      "playerId": 2,
+      "initialBalance": 4313,
+      "seatId": 1,
+      "name": "2"
+    }
+  ]
+}

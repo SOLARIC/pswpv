@@ -1,0 +1,20 @@
+2012-11-05 09:45:59,811 - INFO  - Firebase Server Platform initializing; Server id: server1
+2012-11-05 09:46:04,235 - INFO  - Deployed: poker-tournament 1.0-SNAPSHOT; Internal ID: 1; Deployment Revision: 1
+2012-11-05 09:46:04,451 - INFO  - Deployed: Poker 1.0-SNAPSHOT; Internal ID: 1; Deployment Revision: 1
+2012-11-05 09:46:04,452 - INFO  - Deployed: poker-uar-1.0-SNAPSHOT.com.cubeia.firebase.server.deployment.DeploymentType@3aff84 0; Internal ID: n/a; Deployment Revision: 0
+2012-11-05 09:46:04,539 - INFO  - Deployed: poker.com.cubeia.firebase.server.deployment.DeploymentType@e99681 0; Internal ID: n/a; Deployment Revision: 0
+2012-11-05 09:46:04,822 - INFO  - Deployed: Service config-service-1.0-SNAPSHOT; Id: com.cubeia.game.poker.config:config-service
+2012-11-05 09:46:04,871 - INFO  - Deployed: Service hand-debugger-service-1.0-SNAPSHOT; Id: ns://www.cubeia.com/poker/handdebugger
+2012-11-05 09:46:04,891 - INFO  - Deployed: Service hand-history-collector-service-1.0-SNAPSHOT; Id: ns://www.cubeia.com/poker/handhistory/service
+2012-11-05 09:46:04,900 - INFO  - Deployed: Service mt-random-1.0; Id: com.cubeia.firebase.service:mt-random
+2012-11-05 09:46:04,939 - INFO  - Deployed: Service backend-service-mock-1.0-SNAPSHOT; Id: ns://www.cubeia.com/backend/cashgame/service
+2012-11-05 09:46:04,954 - INFO  - Deployed: Service mock-wallet-service-1.4.0-RC2-SNAPSHOT; Id: ns://www.game.com/wallet/service
+2012-11-05 09:46:05,065 - INFO  - Master node 'mas1' initialized as [primary] master.
+2012-11-05 09:46:05,172 - INFO  - Master node processed handshake for role GAME_NODE from id: gam1[server1[127.0.0.1:8635]]
+2012-11-05 09:46:05,223 - INFO  - Master node processed handshake for role CLIENT_NODE from id: cli1[server1[127.0.0.1:8635]]
+2012-11-05 09:46:05,829 - INFO  - HTTP Server starting at: 0.0.0.0:9191; SSL configuration: Not Configured
+2012-11-05 09:46:05,839 - INFO  - Master node processed handshake for role MTT_NODE from id: mtt1[server1[127.0.0.1:8635]]
+2012-11-05 09:46:05,963 - INFO  - NIO Server started at: /0.0.0.0:4123
+2012-11-05 09:46:06,016 - INFO  - System [Java HotSpot(TM) Client VM 17.0-b17; Windows 7 Windows 7 (x86)]
+2012-11-05 09:46:06,017 - INFO  - Server started [Mon Nov 05 09:46:06 ICT 2012]
+2012-11-05 09:46:06,017 - INFO  - Firebase Server Platform [version: 1.9.0-CE-RC.3]

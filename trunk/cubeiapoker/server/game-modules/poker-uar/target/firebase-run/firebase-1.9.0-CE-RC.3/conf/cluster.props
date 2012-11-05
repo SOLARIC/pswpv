@@ -1,0 +1,5 @@
+#Properties modified by firebase:run plugin
+#Thu Oct 11 10:28:59 ICT 2012
+use-mock-integrations=true
+com.cubeia.network.userservice.base-url=http\://localhost\:8080/user-service-rest/rest
+static-web-directory=E\:\\PROJECT 0.0.1\\Project source\\cubeiapoker\\server\\game-modules\\poker-uar\\target\\firebase-run\\firebase-1.9.0-CE-RC.3\\game\\web
